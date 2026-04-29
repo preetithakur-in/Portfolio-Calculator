@@ -100,28 +100,3 @@ python portfolio.py
 ```
 
 ---
-
-## ⚠️ Current Limitations
-
-* Fixed number of stocks (3 in input version)
-* No real-time stock price integration
-* No data persistence (everything resets each run)
-* No validation for incorrect input
-
----
-
-## 🔮 Future Improvements (Based on Current Code)
-
-These are **natural next steps from your current implementation**:
-
-* Allow unlimited stocks using a `while` loop
-* Add percentage allocation calculation
-* Store data using dictionaries (`{stock: shares}`)
-* Add input validation
-* Integrate real-time prices using APIs like:
-
-  * Yahoo Finance (via `yfinance`)
-* Export results to CSV
-
----
-
